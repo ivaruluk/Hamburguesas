@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+	font-size: 24px;
+	font-family: Roboto;
+	background-image: url('../assets/burguer-bacon.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 120vh;
+}
+div .burguers .veganas{
+	background-color: yellow;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	margin: 30px;
+	padding: 10px;
+}
+.footer{
+	margin: 20px;
+}
+.links li{
+	display: inline;
+	padding: 20px;
+}
+.burguers{
+	font-size: 18px;
+	color: cyan;
+}
+.burguers p{
+	text-align: center;
+}
+.veganas{
+	font-size: 16px;
+	color: darkblue;
+	text-align: right;
+}
+#footer{
+	display: block;
+	background-color: red;
+	color: darkgrey;
+	border: 3px solid;
+	border-color: black;
+	text-align: center;
+	margin: 100px;
+	padding: 20px;
+}
+
+/*--CSS DE LAS OTRAS PAGINAS--*/
+.opinion{
+	margin: 40px;
+	padding: 30px;
+}
+.ingredientes li{
+	color: white;
+	font-family: arial;
+	background-color: black;
+	margin: 70px;
+	padding: 50px;
+	line-height: 20px;
+}
+.video{
+	margin: 100px;
+	padding: 100px;
+}
+.franquicias{
+	font-size: 36px;
+	display: block;
+	background-color: white;
+	margin: 130px;
+	padding: 30px;
+}
