@@ -15,6 +15,30 @@ div .burguers .veganas{
 	background-color: yellow;
 	font-weight: bold;
 }
+.burguers p{
+	background: linear-gradient(to left, red, black);
+	color: white;
+	height: 100px;
+	width: 220px;
+	margin: 50px;
+	text-align: center;
+}
+.burguers p:hover{
+	color: white;
+	background: linear-gradient(to right, red, black);
+}
+.vegana p{
+	background: linear-gradient(to left, green, black);
+	color: white;
+	height: 100px;
+	width: 220px;
+	margin: 50px;
+	text-align: center;
+}
+.vegana p:hover{
+	color: white;
+	background: linear-gradient(to right, green, black);
+}
 a{
 	text-decoration: none;
 	margin: 30px;
@@ -31,12 +55,9 @@ a{
 	font-size: 18px;
 	color: cyan;
 }
-.burguers p{
-	text-align: center;
-}
-.veganas{
+.vegana{
 	font-size: 16px;
-	color: darkblue;
+	color: cyan;
 	text-align: right;
 }
 #footer{
